@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>FORMULARIO</title>
+</head>
+<body>
+ <h1 style="text-align: center;"> Formulario de registro - Mi web </h1>
+    <form action="FormularioEnviado.html" method="get">
+     <h3> Nombre: <input type="text"></h3>
+     <h3>Apellidos:<input type="text"></h3>
+     <h3>Sexo:
+      <input type="radio" name="Sexo" value="hombre">Hombre
+      <input type="radio" name="Sexo" value="Mujer">Mujer 
+     </h3>
+     <h3>Correo Electronico<input type="text"></h3>
+     <h4>Deseo recibir informacion sobre novedades y ofertas <input type="checkbox" checked></h4>
+     <h4>Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre proteccion de datos <input type="checkbox"></h4>
+     <a href="CondicionesLegales.html" target="_blank">CONDICIONES LEGALES</a>
+     <h3>Seleccione un pais
+        <select name="Seleccione un pais">
+            <option value="Argentina">Argentina</option>
+            <option value="Bolivia">Bolivia</option>
+            <option value="Brasil">Brasil</option>
+            <option value="Chile">Chile</option>
+            <option value="Colombia">Colombia</option>
+            <option value="Ecuador">Ecuador</option>
+            <option value="Paraguay">Paraguay</option>
+            <option value="Peru">Peru</option>
+            <option value="Uruguay">Uruguay</option>
+            <option value="Venezuela">Venezuela</option>
+
+        </select>
+      </h3>
+         <h3>Contraseña <input type="password"></h3>
+         <h3>Repetir Contraseña<input type="password"></h3>
+         <h3>Estado Civil
+            <select name="Estado Civil">
+                <option value="Soltero">Soltero</option>
+                <option value="Casado">Casado</option>
+                <option value="Viudo">Viudo</option>
+                <option value="Divorciado">Divorciado</option>
+
+            </select>
+         </h3>
+         <strong><h3>Direccion
+            <h4>Provincia <input type="text"></h4>
+            <h4>Localidad<input type="text"></h4>
+            <h4>Direccion<input type="text"></h4>
+            <h4>Numero<input type="text"></h4>
+            <h4>Departamento<input type="text"></h4>
+         </h3></strong>
+         <input type="submit">
+
+
+    </form>
+</body>
+</html>
